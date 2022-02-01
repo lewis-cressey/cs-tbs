@@ -95,7 +95,7 @@ def hide_popup(*args):
     
 def run_program(*args):
     text = page.editor.getValue()
-    local_vars["shade"] = lambda n: set_status(n, True)
+    local_vars["mark"] = lambda n: set_status(n, True)
     local_vars["erase"] = lambda n: set_status(n, False)
     hide_popup()
     
