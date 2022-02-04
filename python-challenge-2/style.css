@@ -141,6 +141,8 @@ td {
 	text-align: center;
 	font-size: 1.2rem;
 	transition: font-size 0.2s ease-in-out;
+	width: 3rem;
+	height: 2rem;
 }
 
 td.required {
